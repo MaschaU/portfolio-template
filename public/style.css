@@ -81,7 +81,7 @@ button {
     color: #dddcc2;
     border-radius: 5px;
     padding: 0;
-    font-weight: 500;
+    font-weight: 900;
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -288,7 +288,7 @@ p {
 	text-align: center;
 	padding: 10px 5px;
 	font-size: 1rem;
-	color: var(--main-fonts-color);
+	color: #dddcc2;
 	font-family: var(--main-font-family);
 	cursor: pointer;
 }
@@ -298,7 +298,7 @@ p {
 }
 
 .card .work-content:hover {
-    color:#202020;
+    color:#faf8db;
 }
 
 .card:hover {
@@ -370,13 +370,21 @@ label {
     background-color: #282e34;
     padding: 1.25em;
     width:33%;
-    margin: auto;
+	margin: auto;
+	border-bottom: 50px solid var(--main-background);
 }
 
 #form-button {
     background-color: rgba(0, 0, 0, 0.2);
     margin-left: -5px;
     margin-top: 2.5em;
+}
+
+#contact-btn {
+	border: 0.5px solid #dddcc2;
+	border-radius: 0;
+	border-left: transparent;
+	border-right: transparent;
 }
 
 .thankyou_message {
